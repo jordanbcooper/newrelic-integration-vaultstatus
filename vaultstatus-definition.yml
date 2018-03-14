@@ -1,0 +1,18 @@
+name: com.zipcar.vaultstatus
+description: Reports status and metrics for vaultstatus service
+protocol_version: 1
+os: linux
+
+commands:
+  metrics:
+    command:
+      - ./bin/vaultstatus
+      - --metrics
+    interval: 180
+
+  inventory:
+    command:
+      - ./bin/vaultstatus
+      - --inventory
+    prefix: config/vaultstatus
+    interval: 180

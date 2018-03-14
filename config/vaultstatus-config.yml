@@ -1,0 +1,7 @@
+integration_name: com.org.vaultstatus
+
+instances:
+  - name: vaultstatus-metrics
+    command: metrics
+  - name: vaultstatus-inventory
+    command: inventory
