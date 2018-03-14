@@ -1,4 +1,4 @@
-name: com.zipcar.vaultstatus
+name: com.org.vaultstatus
 description: Reports status and metrics for vaultstatus service
 protocol_version: 1
 os: linux
