@@ -6,6 +6,7 @@ export VAULT_URL=https://DNS_NAME/v1/sys/health
 
 Sample output:
 
+```
 {
         "name": "com.org.vaultstatus",
         "protocol_version": "1",
@@ -24,3 +25,4 @@ Sample output:
         },
         "events": []
 }
+```
