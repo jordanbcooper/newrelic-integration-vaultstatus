@@ -1,6 +1,6 @@
 # newrelic-integration-vaultstatus
 
-Be sure to set environment variable for VAULT_URL:
+If testing outside of NR Infra, be sure to set environment variable for VAULT_URL:
 
 export VAULT_URL=https://DNS_NAME/v1/sys/health
 
