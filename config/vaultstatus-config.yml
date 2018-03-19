@@ -3,5 +3,9 @@ integration_name: com.org.vaultstatus
 instances:
   - name: vaultstatus-metrics
     command: metrics
+    argument:
+      VAULT_URL:
   - name: vaultstatus-inventory
     command: inventory
+    argument:
+      VAULT_URL:
